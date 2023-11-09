@@ -16,6 +16,9 @@ body{
     line-height: 1.5;
     background: #111;
 }
+.main-menu{
+
+}
 a{
     text-decoration:none ;
     color: #fff;
@@ -63,6 +66,25 @@ img{
 .navbar ul li:last-child a{
     margin-left: 10px;
 }
+.hero-img img{
+    padding-top: 100px;
+}
+.hero-content{
+    display: flex;
+    justify-content: space-between;
+}
+.hero-text{
+    font-family:'Poppins',sans-serif ;
+    font-size: 55px;
+    font-weight: 900;
+    color: #fff;
+    padding-top: 145px;
+
+}
+
+
+
+
 /*Utility Classes*/
 .container{
     max-width: 1200px;
